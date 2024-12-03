@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#portfolio .img-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+#portfolio .project {
+    width: 480px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#portfolio .project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+#portfolio .project-title {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+#portfolio .img-fluid div,
+#portfolio .img-fluid img {
+    width: 480px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact label {
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
